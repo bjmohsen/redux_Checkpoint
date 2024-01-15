@@ -1,0 +1,90 @@
+/* App.css */
+
+/* Header */
+.header {
+  width: 100%;
+  height: 250px;
+  background-color: #230128;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Todo List Container */
+.todo-list {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+/* Todo Item */
+.todo-item {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+/* Done Item */
+.done {
+  background-color: #b8ebb8;
+}
+
+/* Undone Item */
+.undone {
+  background-color: #2b2c30f3;
+}
+
+/* Add Task Container */
+.add-task {
+  width: 100%;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.add-task > * {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.add-task button {
+  background-color: #230128;
+  color: white;
+  border: none;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+/* Input Styles */
+.inps > * {
+  width: 100%;
+  margin-top: 10px;
+  padding: 1.2rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+/* Button Styles */
+.butt {
+  display: block;
+  margin: 0 auto;
+  margin-top: 15px;
+  background-color: #230128;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 1.2rem;
+  cursor: pointer;
+}
+
+.butt:hover {
+  background-color: #575353;
+}
